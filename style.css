@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(19, 19, 27);
+}
+
+.title {
+    justify-content: center;
+    color: aliceblue;
+    display: flex;
+    margin-top: 60px;
+}
+
+#image {
+    width: 200px;
+
+}
+
+.todolist {
+    justify-content: center;
+    color: aliceblue;
+    display: flex;
+    margin-top: 60px;
+
+}
+
+#styled-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+#styled-input:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+.styled-button {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    background-color: #007BFF;
+    margin-left:23px;
+    color: white;
+    border: none;
+    padding: 1px 8px;
+    font-size: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.styled-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.styled-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#todos{
+    color: aliceblue;
+    font-size: 500%;
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 20px;
+    margin: 70px 450px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+} 
+
+button{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    background-color: #007BFF;
+    margin-left:23px;
+    color: white;
+    border: none;
+    padding: 1px 8px;
+    font-size: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todoele{
+    display: flex;  
+    justify-content: center;
+}
+
+h2{
+    font-size: 150%;
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 20px;
+    margin: 10px 0px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+
+}
